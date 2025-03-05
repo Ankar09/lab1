@@ -1,1 +1,22 @@
-t.txt
+github account create 
+repository create korlam
+
+commands
+git remote add origin git@github.com:Ankar09/lab2.git
+git branch -M main
+git push -u origin main
+
+error comming --- public key paccilo na
+for generate public key
+ssh-keygen -t rsa
+C:\Users\cse\.ssh\id_rsa.pub er vitorer text copy korbo
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuhAkwF0W0hIYoMqbltY19BxH2gK4HB3Z9vOY1ZTsLyA6r+lML7j1EA1nBvQS8LuVkRfaXAZxULTRndtynLMcQ2h/ERpebUJQOJ+bmZqFQk8guFE8VZLWtgaa5PM3r6dAXvW4OI/hpCIYzwt9ZskgM2x3ouegWkJxegX5tctdGYxPlYER5+aeyYcIrKHx58DKi86FH9y+cnmgspTBWzsfKUK1c1yZdKqmHUxJ4Ui8cFBD67HyA/cTJct25BcoJs7jLmieiF0Zo0kdmtMfv87V/Fl2Gl2/OS96XDvlX/PAYBMEi9zKHDwriQrF7XxV2aPxi5W+kdY9uVWX2SjSAJIHVbhQoBQUNE5QyYst34DBwYfEJjRGf2aQBYarF4tqCS9QntyKpJoP0+r6m24x2rvSIgMHuxJp+XPn1C4h+jFkQg2ZeUibX1DMZowZ1S9FoJIE1xq3zSG7Vn1CC+lm02tG+ZAkcofmlJ0JfqMV++YvhqP70kxliedseCQQn5ElAlB0= cse@DESKTOP-TVP298U
+settings -> ssh and gpg key ->new ssh key (just paste)
+git push -u origin main
+
+command in folder which is need to be host
+git init
+git add .
+git commit -m "any message"
+
+
